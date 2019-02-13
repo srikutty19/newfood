@@ -26,10 +26,10 @@
     <gap:plugin name="cordova-plugin-device" source="npm" />		
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />		
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm" />	
-	<gap:plugin name="cordova-plugin-geolocation" source="npm" spec="1.0.1" />
+	<gap:plugin name="cordova-plugin-geolocation" source="npm"/>
 	<gap:plugin name="cordova-plugin-network-information" source="npm" />
 		
-	<gap:plugin name="cordova-plugin-request-location-accuracy" source="npm"  spec="2.2.0" />	
+	<gap:plugin name="cordova-plugin-request-location-accuracy" source="npm" />	
 	<gap:plugin name="cordova-plugin-x-toast" source="npm" spec="2.6.0" />	
 	
 	<gap:plugin spec="https://github.com/razorpay/razorpay-cordova.git#v1.3.4" source="git" />
@@ -45,7 +45,7 @@
     
     <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0"  />
     
-    <gap:plugin name="cordova-plugin-googleplus" source="npm" spec="5.1.1">
+    <gap:plugin name="cordova-plugin-googleplus" source="npm">
      <variable name="REVERSED_CLIENT_ID" value="" />
     </gap:plugin>
 		
@@ -56,7 +56,7 @@
     <preference name="fullscreen" value="false" />        
     <preference name="ShowSplashScreenSpinner" value="false" />	   
         
-    <preference name="android-minSdkVersion" value="17" />
+    <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="26" />
     
     <access origin="*" />
