@@ -2,15 +2,15 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
-    id        = "kmrs.mobile.app"
-    versionCode = "25"
-    version   = "2.5">
-    <name>Karenderia Mobile App</name>
+    id        = "fc.mobile.app"
+    versionCode = "1"
+    version   = "1.0">
+    <name>foodies choice Mobile App</name>
     <description>
-        Karenderia mobile app version
+        Foodies choice mobile app version
     </description>
-    <author email="bastikikang@gmail.com" href="http://cordova.io">
-        bastisapp.com
+    <author email="trichysoftsolutions@gmail.com" href="http://foodieschoice.tk">
+        
     </author>
             
     <content src="index.html" />
